@@ -124,7 +124,9 @@ mongodb://[ip]:[port]/tokpedplayclone
 ```
 
 4. Start the server:
+```
 npm start
+```
 
 5. The API is now running at `http://localhost:3000/Api`.
 
