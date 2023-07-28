@@ -1,0 +1,45 @@
+{
+    "videoThumbnails": [
+      {
+        "videoID": "fQzD2G-QBK0",
+        "thumbnailUrl": "https://img.youtube.com/vi/fQzD2G-QBK0/sddefault.jpg"
+      },
+      {
+        "videoID": "csOCv5poIGQ",
+        "thumbnailUrl": "https://img.youtube.com/vi/csOCv5poIGQ/sddefault.jpg"
+      }      
+    ],
+    "products": [
+      {
+        "productID": "product1",
+        "link": "https://example.com/product1",
+        "title": "Product 1",
+        "price": 100000,
+        "videoID": "fQzD2G-QBK0"
+      },
+      {
+        "productID": "product2",
+        "link": "https://example.com/product2",
+        "title": "Product 2",
+        "price": 200000,
+        "videoID": "csOCv5poIGQ"
+      }
+      
+    ],
+    "comments": [
+      {
+        "username": "user1",
+        "comment": "This is a great video!",
+        "timestamp": "2023-07-26T12:34:56.789Z",
+        "videoID": "fQzD2G-QBK0"
+      },
+      {
+        "username": "user2",
+        "comment": "Thanks for sharing!",
+        "timestamp": "2023-07-26T14:12:34.567Z",
+        "videoID": "csOCv5poIGQ"
+      }
+      
+    ]
+  }
+  

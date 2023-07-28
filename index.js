@@ -12,9 +12,26 @@ database.on('error',(err) => {
     console.error(err);
 });
 
-database.once('connected',() => {
+database.once('connected', /*async*/ () => {
     console.log('Database Connected');
-});
+  
+    // Insert initial data into the collections to check the API response
+    // const initialData = require('./data/initialData.json');
+  
+    // const VideoThumbnail = require('./models/videoThumbnail');
+    // const Product = require('./models/product');
+    // const Comment = require('./models/comment');
+  
+    // try {
+    //   await VideoThumbnail.insertMany(initialData.videoThumbnails);
+    //   await Product.insertMany(initialData.products);
+    //   await Comment.insertMany(initialData.comments);
+  
+    //   console.log('Initial data inserted successfully.');
+    // } catch (error) {
+    //   console.error('Error inserting initial data:', error);
+    // }
+  });
 
 const routes = require('./routes/router.js');
 
