@@ -1,6 +1,6 @@
-# Project Title
+# Tokopedia Play Clone
 
-Brief project description here.
+This project is to clone the Tokopedia Play website, with a midterm requirement to create a backend for the Tokopedia Play clone application.
 
 ## Database Structure
 
@@ -22,7 +22,6 @@ The project uses MongoDB as the database and utilizes Mongoose as the ODM (Objec
    - `timestamp` (Date, required): Timestamp when the comment was submitted.
    - `videoID` (String, required): Unique identifier of the video the comment is related to.
 
-Mongoose provides a schema-based solution to model your application data and define the structure of documents within each collection. The defined models allow seamless interaction with MongoDB, enabling easy creation, reading, updating, and deletion of documents.
 
 ## API Structure
 
@@ -118,7 +117,9 @@ npm install body-parser dotenv express mongoose nodemon
 ```
 
 3. Ensure MongoDB is running on your local machine. check using `mongosh` and make sure the ip and port from DATABASE_URL in .env file is match with the ip and port in "connecting to" section in mongosh, if not copy the ip and port on "connecting to" section with format below to the DATABASE_URL in .env file
-`mongodb://[ip]:[port]/tokpedplayclone`
+```
+mongodb://[ip]:[port]/tokpedplayclone
+```
 
 4. Start the server:
 npm start
