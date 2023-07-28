@@ -126,7 +126,7 @@ npm install body-parser dotenv express mongoose nodemon
 
 4. Ensure MongoDB is running on your local machine. check using `mongosh` and make sure the ip and port from DATABASE_URL in .env file is match with the ip and port in "connecting to" section in mongosh, if not copy the ip and port on "connecting to" section with format below to the DATABASE_URL in .env file
 ```
-mongodb://[ip]:[port]/tokpedplayclone
+mongodb://ip:port/tokpedplayclone
 ```
 
 5. Start the server:
