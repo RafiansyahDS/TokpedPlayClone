@@ -33,12 +33,12 @@ The API is built using Node.js and Express.js, with data stored in a MongoDB dat
      ```
      [
        {
-         "videoID": "example_video_id_1",
-         "thumbnailUrl": "https://example.com/thumbnail_1.jpg"
+         "videoID": "fQzD2G-QBK0",
+         "thumbnailUrl": "https://img.youtube.com/vi/fQzD2G-QBK0/sddefault.jpg"
        },
        {
-         "videoID": "example_video_id_2",
-         "thumbnailUrl": "https://example.com/thumbnail_2.jpg"
+         "videoID": "csOCv5poIGQ",
+         "thumbnailUrl": "https://img.youtube.com/vi/csOCv5poIGQ/sddefault.jpg"
        },
        ...
      ]
@@ -54,13 +54,13 @@ The API is built using Node.js and Express.js, with data stored in a MongoDB dat
          "productID": "example_product_id_1",
          "link": "https://example.com/product_1",
          "title": "Example Product 1",
-         "price": 19.99
+         "price": 250000
        },
        {
          "productID": "example_product_id_2",
          "link": "https://example.com/product_2",
          "title": "Example Product 2",
-         "price": 24.99
+         "price": 100000
        },
        ...
      ]
@@ -74,7 +74,7 @@ The API is built using Node.js and Express.js, with data stored in a MongoDB dat
      [
        {
          "username": "user1",
-         "comment": "This is a great video!",
+         "comment": "This is a great product video!",
          "timestamp": "2023-07-26T12:34:56.789Z"
        },
        {
@@ -91,9 +91,9 @@ The API is built using Node.js and Express.js, with data stored in a MongoDB dat
    - Payload:
      ```
      {
-       "username": "user3",
-       "comment": "Awesome content!",
-       "videoID": "example_video_id_1"
+       "username": "FELTFANS",
+       "comment": "Awesome Product!",
+       "videoID": "fQzD2G-QBK0"
      }
      ```
    - Response:
