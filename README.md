@@ -108,27 +108,33 @@ The API is built using Node.js and Express.js, with data stored in a MongoDB dat
 To run the API locally on your machine, follow these steps:
 
 1. Clone the repository:
+Run code below on terminal
 ```
 git clone https://github.com/RafiansyahDS/TokpedPlayClone.git
 ```
 
-2. Install dependencies:
+2. change directory to the cloned repository:
+Run code below on terminal
 ```
 cd TokpedPlayClone
+```
+
+3. Install dependencies:
+```
 npm install body-parser dotenv express mongoose nodemon
 ```
 
-3. Ensure MongoDB is running on your local machine. check using `mongosh` and make sure the ip and port from DATABASE_URL in .env file is match with the ip and port in "connecting to" section in mongosh, if not copy the ip and port on "connecting to" section with format below to the DATABASE_URL in .env file
+4. Ensure MongoDB is running on your local machine. check using `mongosh` and make sure the ip and port from DATABASE_URL in .env file is match with the ip and port in "connecting to" section in mongosh, if not copy the ip and port on "connecting to" section with format below to the DATABASE_URL in .env file
 ```
 mongodb://[ip]:[port]/tokpedplayclone
 ```
 
-4. Start the server:
+5. Start the server:
 ```
 npm start
 ```
 
-5. The API is now running at `http://localhost:3000`.
+6. The API is now running at `http://localhost:3000`.
 
-6. You can use tools like `curl`, `Postman`, or any programming language's HTTP client to make requests to the API endpoints described above.
+7. You can use tools like `curl`, `Postman`, or any programming language's HTTP client to make requests to the API endpoints described above.
 
