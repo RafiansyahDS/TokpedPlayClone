@@ -108,7 +108,9 @@ The API is built using Node.js and Express.js, with data stored in a MongoDB dat
 To run the API locally on your machine, follow these steps:
 
 1. Clone the repository:
-https://github.com/RafiansyahDS/TokpedPlayClone.git
+```
+git clone https://github.com/RafiansyahDS/TokpedPlayClone.git
+```
 
 2. Install dependencies:
 ```
