@@ -128,7 +128,7 @@ mongodb://[ip]:[port]/tokpedplayclone
 npm start
 ```
 
-5. The API is now running at `http://localhost:3000/api`.
+5. The API is now running at `http://localhost:3000`.
 
 6. You can use tools like `curl`, `Postman`, or any programming language's HTTP client to make requests to the API endpoints described above.
 
